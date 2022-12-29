@@ -21,6 +21,15 @@ module.exports = {
 /* Cloud */
 sudo apt upgrade
 
+/*
+# Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Debian
+curl -fsSL https://deb.nodesource.com/setup_current.x | bash -
+apt-get install -y nodejs
+*/
 sudo apt install npm
 npm cache clean -f
 sudo npm install -g npm
