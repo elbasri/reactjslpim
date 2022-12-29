@@ -44,3 +44,8 @@ sudo npm -g install create-react-app
 create-react-app lpimreactjs
 //C Start
 npm start
+
+
+//run build
+npm install -g serve
+sudo npm install -g serve
