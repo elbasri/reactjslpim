@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from './pages/home';
 import Me from './pages/me';
+import Httpreq from './pages/httprequests';
 //import Logo from './logo.svg';
 
 //const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ export default function App() {
           <ul className="navbar-nav mr-auto">
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
             <li><Link to={'/me'} className="nav-link">Profile</Link></li>
+            <li><Link to={'/httpreq'} className="nav-link">Profile</Link></li>
           </ul>
         </nav>
         <hr />
@@ -31,6 +33,7 @@ export default function App() {
           <Route path="/"> 
             <Route index element={<Home />} />
             <Route path="me" element={<Me />} />
+            <Route path="httpreq" element={<Httpreq />} />
           </Route>
         </Routes>
     </BrowserRouter>
