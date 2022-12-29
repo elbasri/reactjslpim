@@ -1,5 +1,3 @@
-sudo apt-get install nginx
-
 upstream npmserver {
  server localhost:3000;
 }
