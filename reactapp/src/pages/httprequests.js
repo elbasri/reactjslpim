@@ -21,7 +21,7 @@ const Httpreq = () => {
     {posts.map(data=> (
      <li>
       <h1>{data.title}</h1>
-      <p>{data.title}</p>
+      <p>{data.body}</p>
       </li>
       ))}
   </ul>;
